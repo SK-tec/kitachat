@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+faiss-cpu
+sentence-transformers
+openai
+streamlit
+PyMuPDF
+python-dotenv
+
