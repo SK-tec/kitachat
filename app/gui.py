@@ -75,8 +75,8 @@ def generate_answer_with_openai(query: str, context: str, max_tokens=3000):
 
 # RAG Pipeline Function
 def ask_question(query: str):
-    index_path = "./vector_db/activities_index.faiss"
-    metadata_path = "./vector_db/activities_passages.pkl"
+    index_path = "./app/vector_db/activities_index.faiss"
+    metadata_path = "./app/vector_db/activities_passages.pkl"
 
     index, passages = load_vector_db(index_path, metadata_path)
     model = SentenceTransformer('all-MiniLM-L6-v2')
