@@ -116,7 +116,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.image("logo.png", width=100)
+st.image("app/logo.png", width=100)
 st.markdown("<h2 class='centered-header'>👦👧 Kinder-Aktivitätenerfinder! 👧👦</h2>", unsafe_allow_html=True)
 
 # User input at the bottom
